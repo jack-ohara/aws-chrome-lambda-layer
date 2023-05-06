@@ -3,6 +3,10 @@
 *.d.ts
 node_modules
 !dist/layer/nodejs/node_modules
+!dist/layer/nodejs/node_modules/*
+
+!dist/package
+!dist/package/**/*
 
 # CDK asset staging directory
 .cdk.staging

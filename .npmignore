@@ -2,6 +2,8 @@
 !*.d.ts
 dist/layer
 
+!dist/package
+
 # CDK asset staging directory
 .cdk.staging
 cdk.out
