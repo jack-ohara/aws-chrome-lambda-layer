@@ -1,4 +1,4 @@
-import chromium from "chrome-aws-lambda";
+import chromium from "@sparticuz/chrome-aws-lambda";
 
 export async function getPage(url: string) {
   let browser: Awaited<
